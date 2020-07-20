@@ -1,4 +1,4 @@
-https://www.lincolnalabama.com/Sites/Lincoln/Images/Police/Animal%20Picture.jpg
+
 # Spcification
  REST API for animals. The API allows viewing, deleting, creating and updating of animal information. 
  
