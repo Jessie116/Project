@@ -1,8 +1,22 @@
 
-# Spcification
- REST API for animals. The API allows viewing, deleting, creating and updating of animal information. 
+# Project Spcification
+REST API for animals. The API must allow viewing, deleting, creating and updating OF animal information. 
  
- ANIMAL REST API server implementation built on top Node.js and Express.js with Mongoose.js for MongoDB integration.
+Requirements - All data  stored in a json file in the server application - The Animal class  containing the following properties:
+- species - name 
+- id - number of legs
+- lifespan (in months)
+- eatingGroup (herbivore, carnivore, omnivore) 
+ 
+- Api endpoints allow:
+- Creating a new animal 
+- updating existing animals 
+- deleting existing animals
+- displaying a list of all animals (must produce a json response in the response body)
+- displaying a list of animals filtered by class properties (i.e display list of animals by eatingGroup) (must produce a json response in the response body) 
+- the database/file must be populated with at least 20 different animals 
+
+ ANIMAL REST API server implementation built on top Node.js and Express.js with Mongoose.js for MongoDB(Atlas) integration.
  
 # Information
 This repository is project based which provides a REST API assessment that challenged my Javascript knoledge.
@@ -10,12 +24,13 @@ This repository is project based which provides a REST API assessment that chall
 # IDE I used
 I use IntelliJ as it provides support for Node.js and has a really nice interface. ..
 
-IntelliJ
-Student License
-Github Student Pack
-Running Node.js in IntelliJ
-Nodejs Fix on yarn and npm error
-More resources on installing nodejs
+•	IntelliJ
+•	Student License
+•	Github Student Pack
+•	Running Node.js in IntelliJ
+•	Nodejs Fix on yarn and npm error
+•	More resources on installing nodejs
+
 
 # AnimalAng
 
@@ -29,12 +44,12 @@ Some of non-standard modules used:
 •	express
 •	body-parser
 
-# ATLAS DB
+##ATLAS DB
 This repo contains (or will contain) code for ingesting data into the storage engine used for the ATLAS data viewer.
 
 
 ## Running project
-
+Run node app.js
 
 ## Development server
 
