@@ -1,3 +1,4 @@
+https://www.lincolnalabama.com/Sites/Lincoln/Images/Police/Animal%20Picture.jpg
 # Spcification
  REST API for animals. The API allows viewing, deleting, creating and updating of animal information. 
  
@@ -6,7 +7,7 @@
 # Information
 This repository is project based which provides a REST API assessment that challenged my Javascript knoledge.
 
-# IDED I used
+# IDE I used
 I use IntelliJ as it provides support for Node.js and has a really nice interface. ..
 
 IntelliJ
