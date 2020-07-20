@@ -1,0 +1,9 @@
+{
+    "options": {
+      "destination_path": "./public/lib", 
+      "source_path": "./node_modules" 
+    },
+    "client-dependencies":[
+      "bootstrap" 
+    ]
+  }
